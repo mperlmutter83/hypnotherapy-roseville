@@ -1,7 +1,7 @@
-export interface BlogPost { slug: string; title: string; date: string; category: string; excerpt: string; content: string; }
+export interface BlogPost { slug: string; title: string; date: string; publishedAt: string; category: string; excerpt: string; content: string; }
 
 export const blogPosts: BlogPost[] = [
-  { slug: 'five-signs-you-are-a-good-candidate-for-hypnotherapy', title: '5 Signs You\'re a Good Candidate for Hypnotherapy', date: 'July 26, 2026', category: 'Getting Started', excerpt: 'Curious whether hypnotherapy is right for you? These five signs suggest you\'re likely to respond well — and what to expect from your first session in Roseville.', content: `<p>Hypnotherapy works for a lot of people — but not every modality fits every client. If you've been thinking about booking a session, here are five signs that you're likely to respond well to clinical hypnotherapy.</p>
+  { slug: 'five-signs-you-are-a-good-candidate-for-hypnotherapy', title: '5 Signs You\'re a Good Candidate for Hypnotherapy', date: 'July 26, 2026', publishedAt: '2026-07-26', category: 'Getting Started', excerpt: 'Curious whether hypnotherapy is right for you? These five signs suggest you\'re likely to respond well — and what to expect from your first session in Roseville.', content: `<p>Hypnotherapy works for a lot of people — but not every modality fits every client. If you've been thinking about booking a session, here are five signs that you're likely to respond well to clinical hypnotherapy.</p>
 
 ## 1. You've tried willpower alone, and it isn't enough
 
@@ -48,9 +48,37 @@ Most first sessions end with clients saying something like: "That's it? I was aw
 If any of these signs fit your situation, the next step is a free 15-minute consultation. You can talk through your goals, ask questions, and decide whether hypnotherapy is the right next move — no commitment.
 
 📞 **Call (415) 322-0298** or <a href="https://www.hypnotherapyroseville.com/">book a free consultation online</a>. Hours: Mon–Fri 9am–6pm, Sat by appointment.` },
-  { slug: 'what-to-expect-from-your-first-hypnotherapy-session', title: 'What to Expect From Your First Hypnotherapy Session', date: 'April 29, 2026', category: 'Getting Started', excerpt: 'Learn what happens during your first hypnotherapy session and how to prepare.', content: '<p>Your first hypnotherapy session is designed to make you feel comfortable and understood. We\'ll discuss your goals and begin the transformation process.</p>' },
-  { slug: 'how-hypnotherapy-helps-with-anxiety', title: 'How Hypnotherapy Helps with Anxiety', date: 'April 4, 2026', category: 'Anxiety', excerpt: 'Discover how hypnotherapy can help you manage and overcome anxiety.', content: '<p>Anxiety affects millions of people, but hypnotherapy offers a powerful tool for managing symptoms and finding lasting relief.</p>' },
+  { slug: 'what-to-expect-from-your-first-hypnotherapy-session', title: 'What to Expect From Your First Hypnotherapy Session', date: 'April 29, 2026', publishedAt: '2026-04-29', category: 'Getting Started', excerpt: 'Learn what happens during your first hypnotherapy session and how to prepare.', content: '<p>Your first hypnotherapy session is designed to make you feel comfortable and understood. We\'ll discuss your goals and begin the transformation process.</p>' },
+  { slug: 'how-hypnotherapy-helps-with-anxiety', title: 'How Hypnotherapy Helps with Anxiety', date: 'April 4, 2026', publishedAt: '2026-04-04', category: 'Anxiety', excerpt: 'Discover how hypnotherapy can help you manage and overcome anxiety.', content: '<p>Anxiety affects millions of people, but hypnotherapy offers a powerful tool for managing symptoms and finding lasting relief.</p>' },
 ];
 
-export function getPostBySlug(slug: string) { return blogPosts.find((p) => p.slug === slug); }
-export function getAllPostSlugs() { return blogPosts.map((p) => p.slug); }
+
+/** Current date in America/Los_Angeles as YYYY-MM-DD. */
+function getTodayLA(): string {
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+}
+
+/**
+ * Only posts whose publishedAt is <= today (America/Los_Angeles).
+ * Use for all public-facing listings and lookups so scheduled posts
+ * stay invisible until their date.
+ */
+export function getPublishedPosts(): BlogPost[] {
+  const today = getTodayLA();
+  return blogPosts.filter(post => post.publishedAt <= today);
+}
+
+/** Published post by slug — undefined if not found or not yet published. */
+export function getPostBySlug(slug: string): BlogPost | undefined {
+  return getPublishedPosts().find(post => post.slug === slug);
+}
+
+/** Slugs of published posts (generateStaticParams). */
+export function getAllPostSlugs(): string[] {
+  return getPublishedPosts().map(post => post.slug);
+}
+
+/** ALL posts (published + scheduled) — /api/posts feed & admin only. */
+export function getAllPosts(): BlogPost[] {
+  return blogPosts;
+}
