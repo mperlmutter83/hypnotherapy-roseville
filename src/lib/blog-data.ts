@@ -1,6 +1,101 @@
 export interface BlogPost { slug: string; title: string; date: string; publishedAt: string; category: string; excerpt: string; content: string; }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'hypnotherapy-basics-how-it-works', title: 'How Hypnotherapy Works: The Science Behind the Trance', date: 'August 6, 2026', publishedAt: '2026-08-06', category: 'Hypnotherapy Basics', excerpt: 'What hypnotherapy actually is, what happens in your brain during trance, and why it\'s a legitimate clinical tool — not a stage trick.', content: `Hypnotherapy has an image problem. Most people associate hypnosis with stage shows, swinging watches, and people quacking like ducks. Clinical hypnotherapy is something completely different — and it's one of the more evidence-supported complementary therapies you can choose. Here's what it actually is, what it isn't, and how it works in your brain.
+
+## What hypnotherapy is
+
+**Hypnotherapy is the use of a focused, relaxed state (trance) to work with subconscious patterns.** In that state, your conscious mind is quieted but you're not asleep or unconscious. You can still hear, think, and choose. The hypnotherapist uses guided suggestions, visualizations, and techniques to help your subconscious reorganize patterns that aren't serving you.
+
+## What hypnotherapy is not
+
+It's important to clear up a few misconceptions:
+
+- **Not mind control.** You can't be made to do anything against your values. If a practitioner suggested something you'd normally refuse, you'd refuse.
+- **Not unconsciousness.** Most people who experience hypnosis remember most or all of the session.
+- **Not stage hypnosis.** Stage hypnosis uses suggestibility and social pressure for entertainment. Clinical hypnosis uses a relaxed, focused state for therapeutic goals.
+- **Not magic.** Hypnotherapy is a skill-based practice. It works best in the hands of a trained practitioner across multiple sessions.
+
+## What the brain is doing during hypnosis
+
+Functional MRI and EEG studies have shown consistent patterns across the brains of hypnotizable subjects:
+
+- **Reduced activity in the default mode network** — the "storytelling" part of your brain that wanders between past and future
+- **Increased connectivity between brain regions** — particularly between the conscious prefrontal cortex and the subconscious limbic system
+- **Quieted activity in the salience network** — the part that decides what's important right now
+- **Increased suggestibility** — but only for suggestions consistent with your values
+
+Put together: hypnosis is a state in which the brain is more receptive to change than it usually is. You're not sleeping. You're more focused, not less.
+
+## The typical experience of a trance
+
+Most first-time clients describe a similar experience:
+
+- A relaxation that feels like the moment before sleep, but you're still aware
+- A sense of time slowing or losing track
+- Awareness of the practitioner's voice as the primary focus
+- Feeling like your body is heavy or light
+- Sometimes vivid mental imagery
+- A sense of calm
+
+You typically emerge feeling like you just had a quiet hour, but more grounded. Many clients say: "I was awake the whole time" — which is exactly right.
+
+## How trance helps with specific issues
+
+Different issues respond to different hypnotic techniques:
+
+### Anxiety
+- Progressive muscle relaxation in trance
+- Visualization of safe places
+- Reframing anxious thoughts as passing signals
+- Post-hypnotic suggestions for grounding
+
+### Smoking cessation
+- Mapping and reframing triggers
+- Identity-level work ("you as a non-smoker")
+- Anchoring calm to situations that used to trigger cravings
+
+### Weight management
+- Reframing the relationship with food
+- Suggesting satisfaction with smaller portions
+- Emotional eating interventions
+
+### Sleep
+- Bedtime trance inductions
+- Reframing racing thoughts
+- Anchoring calm to the bed/sleep ritual
+
+### Phobias
+- Systematic desensitization in trance
+- Reframing fear responses
+
+Every technique has the same underlying mechanism: **accessing the subconscious mind when it's more open to change.**
+
+## How to know if hypnosis will work for you
+
+Suggestibility varies by person, but most people can experience at least a light trance with a skilled practitioner. A quick self-assessment:
+
+- Can you get absorbed in a good book or movie?
+- Do you ever drive home on "autopilot" without remembering the route?
+- Have you ever daydreamed and lost 20 minutes?
+
+If yes to any of those, you can likely experience a useful trance. Most people are more hypnotizable than they think — about 80% of adults can reach a moderate trance with a good practitioner.
+
+## What to look for in a hypnotherapist
+
+Five credentials to look for:
+
+1. **Recognized certification** — e.g., National Guild of Hypnotists, American Council of Hypnotist Examiners, or equivalent
+2. **Clinical or practical experience** — years in practice, references
+3. **A clear scope of practice** — won't promise to cure medical conditions
+4. **A client-centered approach** — doesn't push specific outcomes, asks questions first
+5. **Ethics and confidentiality** — written policies, clean intake process
+
+## Book a free consultation
+
+The best way to find out if hypnotherapy works for you is to try a session. At Hypnotherapy Roseville, the first visit is a free 15-minute consultation — no commitment, just a conversation.
+
+📞 **Call (415) 322-0298** or <a href="https://www.hypnotherapyroseville.com/">book a free consultation online</a>. Hours: Mon–Fri 9am–6pm, Sat by appointment.` },
   { slug: 'hypnotherapy-for-smoking-cessation', title: 'Hypnotherapy for Smoking Cessation: What the Research Says', date: 'August 4, 2026', publishedAt: '2026-08-04', category: 'Quit Smoking', excerpt: 'Hypnotherapy has one of the highest success rates of any smoking cessation method. Here\'s how it works, what the research says, and what to expect from a program.', content: `If you've tried to quit smoking before, you already know the hardest part isn't the nicotine. It's the habit — the morning cigarette, the post-meal cigarette, the driving cigarette, the stress cigarette. Hypnotherapy targets that habit at the subconscious level, which is why it's one of the more effective cessation methods available.
 
 ## How effective is hypnotherapy for quitting smoking?
