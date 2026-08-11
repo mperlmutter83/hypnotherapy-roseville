@@ -1,6 +1,94 @@
 export interface BlogPost { slug: string; title: string; date: string; publishedAt: string; category: string; excerpt: string; content: string; }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'hypnotherapy-vs-meditation', title: 'Hypnotherapy vs. Meditation: What\'s the Difference?', date: 'August 11, 2026', publishedAt: '2026-08-11', category: 'Hypnotherapy Basics', excerpt: 'Both hypnotherapy and meditation use a relaxed, focused state — but they work differently. Here\'s how to choose between them, and when each makes sense.', content: `Hypnotherapy and meditation both use a relaxed, focused state. They both work with the mind-body connection. They both have a long history. But they're not the same thing, and they're not interchangeable. Here's how to choose between them — and when combining them is the strongest path.
+
+## What meditation is
+
+Meditation is a self-directed practice of focused attention, typically on the breath, a sensation, a mantra, or a chosen object. The goal is usually to:
+
+- Reduce mental chatter
+- Build present-moment awareness
+- Cultivate equanimity
+- Develop concentration
+
+Meditation is something you do **for yourself**, usually 10–45 minutes a day. The benefits are well-documented and usually subtle, cumulative, and long-term.
+
+## What hypnotherapy is
+
+Hypnotherapy is **a guided session with a trained practitioner** who uses trance to work with specific subconscious patterns. The goal is usually to address a specific issue:
+
+- Anxiety or panic
+- Smoking cessation
+- Sleep difficulty
+- Phobias
+- Habit change
+- Performance blocks
+
+You do not need to "believe" in hypnosis for it to work. You do need to be willing to enter a relaxed, focused state and follow simple guided suggestions.
+
+## The key differences
+
+| | Meditation | Hypnotherapy |
+|---|---|---|
+| Who leads | You | A practitioner |
+| Typical duration | 10–45 min/day | 50–75 min/session, several times |
+| Frequency | Daily practice | Weekly or biweekly |
+| Goal | Train attention | Address a specific issue |
+| Skill required | Patience, consistency | Receptivity to trance |
+| Time to see results | Weeks to months | Often 1–3 sessions |
+| Evidence for change | Strong (especially stress, focus) | Strong (specific behaviors and conditions) |
+| Best for | General wellbeing, stress, focus | Specific issues like anxiety, smoking, sleep, habits |
+
+## When meditation is the better fit
+
+Meditation is the right tool when:
+
+- You want general stress reduction or improved focus
+- You have time to commit to a daily practice
+- The issue is diffuse (mild anxiety, general stress, difficulty concentrating)
+- You prefer self-directed work over a guided experience
+- You're building a long-term resilience habit
+
+Most people benefit from daily meditation regardless of whether they also do hypnotherapy. The two stack well.
+
+## When hypnotherapy is the better fit
+
+Hypnotherapy is the right tool when:
+
+- You have a specific issue (a phobia, smoking, a habit, sleep, performance anxiety)
+- Willpower hasn't worked
+- You want to move quickly
+- You want a practitioner to guide the work
+- You have 3–6 sessions' worth of bandwidth
+
+Hypnotherapy is also a better fit when the issue is partially subconscious — when you know what you should do but can't get yourself to do it consistently.
+
+## When combining them is the strongest path
+
+The strongest outcomes for many clients come from combining both:
+
+- Daily meditation (10–15 minutes) for ongoing stress management and concentration
+- Periodic hypnotherapy (sessions every 2–4 weeks) for specific issues
+
+This way meditation handles the daily foundation, and hypnotherapy tackles the specific issues that need targeted intervention.
+
+## A practical test
+
+Not sure which to start with? Here's a quick decision tree:
+
+1. Is your issue specific (a behavior, fear, or pattern)? → **Hypnotherapy first**
+2. Is your issue diffuse (general stress, lack of focus, life overwhelm)? → **Meditation first**
+3. Have you tried one consistently for a month and it didn't help? → **Add the other**
+4. Want the strongest effect? → **Both, in that order**
+
+You can mix-and-match in any order. The point isn't to pick one — it's to use each for what it does best.
+
+## Book a free consultation
+
+If you're considering hypnotherapy and want to figure out whether it's the right next step, the first visit at Hypnotherapy Roseville is a free 15-minute consultation — no commitment, just a conversation about your goals.
+
+📞 **Call (415) 322-0298** or [book a free consultation online](https://www.hypnotherapyroseville.com/). Hours: Mon–Fri 9am–6pm, Sat by appointment.` },
   { slug: 'hypnotherapy-basics-how-it-works', title: 'How Hypnotherapy Works: The Science Behind the Trance', date: 'August 6, 2026', publishedAt: '2026-08-06', category: 'Hypnotherapy Basics', excerpt: 'What hypnotherapy actually is, what happens in your brain during trance, and why it\'s a legitimate clinical tool — not a stage trick.', content: `Hypnotherapy has an image problem. Most people associate hypnosis with stage shows, swinging watches, and people quacking like ducks. Clinical hypnotherapy is something completely different — and it's one of the more evidence-supported complementary therapies you can choose. Here's what it actually is, what it isn't, and how it works in your brain.
 
 ## What hypnotherapy is
