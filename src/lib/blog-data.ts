@@ -1,6 +1,98 @@
 export interface BlogPost { slug: string; title: string; date: string; publishedAt: string; category: string; excerpt: string; content: string; }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'hypnotherapy-for-better-sleep', title: 'Using Hypnotherapy to Improve Sleep (Without Medication)', date: 'August 13, 2026', publishedAt: '2026-08-13', category: 'Sleep Improvement', excerpt: 'Hypnotherapy can help you fall asleep faster, stay asleep, and wake rested — without medication. Here\'s how it works and what to expect.', content: `Difficulty sleeping is one of the most common reasons people consider hypnotherapy. It also happens to be one of the issues that responds best to it. Here's how hypnotherapy helps with sleep, what the sessions look like, and why it's a strong option if you'd rather not rely on medication.
+
+## What "sleep difficulty" actually means
+
+Sleep issues fall into a few common patterns:
+
+- **Trouble falling asleep** — racing thoughts, especially at night
+- **Waking in the middle of the night** — often around 2–4am, unable to return to sleep
+- **Waking too early** — feeling unrested even after 6–7 hours
+- **Non-restorative sleep** — sleeping 8 hours but feeling tired
+- **Insomnia tied to anxiety** — sleep is fine when life is calm, terrible when it's not
+
+The good news: hypnotherapy helps with each of these in different ways.
+
+## Why sleep is hard to fix with willpower
+
+Most sleep advice is built around habits — no screens, no caffeine after 2pm, dark room, cool temperature, consistent bedtime. These help, but they don't address the most stubborn part of sleep difficulty: **the mental loop.**
+
+The mental loop sounds like:
+
+- "Why can't I fall asleep?"
+- "I have to be up in 6 hours."
+- "If I don't fall asleep now, tomorrow will be ruined."
+- "This always happens."
+
+Each thought raises alertness, which raises the chance of more thoughts, which raises alertness further. The loop is what hypnotherapy targets directly.
+
+## How hypnotherapy helps with sleep
+
+Hypnotherapy does three things that are difficult to do on your own:
+
+### 1. Trains the body to relax on cue
+
+A common theme in sleep issues is that the body has forgotten how to relax. Hypnotherapy sessions practice deep physical relaxation repeatedly, paired with the suggestion of sleep. After a few sessions, the relaxation becomes a conditioned response — your body learns that particular cues (the practitioner's voice, a specific visualization, a deep breath pattern) means it's time to release.
+
+### 2. Reduces the nighttime mental loop
+
+Trance state quiets the default mode network — the part of the brain that loops on past and future. While in trance, clients often experience what it's like to sleep without the loop. That experience is, in itself, a kind of training. After several sessions, many clients find the loop less sticky at bedtime.
+
+### 3. Reframes the relationship with sleep
+
+For some clients, sleep itself has become a stressor. They dread bedtime because they've failed so many times to fall asleep. Hypnotherapy reframes sleep as a natural, easy process — not something to perform or earn. That shift alone reduces a meaningful amount of pre-sleep anxiety.
+
+## What a typical sleep program looks like
+
+A typical 4–6 session program at Hypnotherapy Roseville:
+
+### Sessions 1–2: Assessment and foundation
+- Sleep history and pattern review
+- Exclude medical causes (sleep apnea, restless legs, etc.)
+- Build a personalized sleep plan
+- First trance work — deep physical relaxation with sleep cues
+
+### Sessions 3–4: Targeted work
+- Reframe the mental loop
+- Address any anxiety or stress that crosses over to bedtime
+- Build a reliable pre-sleep relaxation practice
+
+### Sessions 5–6: Reinforcement
+- Mid-sleep awakening tools
+- Re-entry rituals if you do wake at 2am
+- Take-home audio for ongoing practice
+
+## What "without medication" really means
+
+Hypnotherapy is a strong option if you want to avoid sleep medications — prescription or OTC. That said, "without medication" is a goal, not a starting condition. Many clients use hypnotherapy alongside medication early in treatment, then taper off as the underlying issue resolves. The right approach depends on your situation.
+
+## What the research says
+
+There is solid evidence that hypnotherapy improves sleep:
+
+- Studies have shown hypnosis increases slow-wave (deep) sleep and improves sleep efficiency
+- A randomized trial in 2018 found hypnosis improved sleep quality scores significantly more than self-monitoring alone
+- Meta-analyses of hypnosis for anxiety-related sleep issues show consistent benefit
+
+The strongest results come from working with a credentialed practitioner across multiple sessions, paired with simple behavioral changes (consistent bedtime, limiting screens, regular wake-up time).
+
+## When to consider medication instead
+
+Hypnotherapy is not a substitute for medical care. If you have:
+
+- Suspected sleep apnea (loud snoring, gasping at night, daytime fatigue)
+- Restless legs syndrome
+- Severe insomnia that's lasted months
+
+See a sleep medicine specialist. Hypnotherapy complements medical care but doesn't replace it.
+
+## Book a free consultation
+
+If sleep has been an issue and you'd rather not rely on medication, hypnotherapy is worth a serious look. The first step is a free 15-minute consultation to talk through your sleep patterns and goals.
+
+📞 **Call (415) 322-0298** or [book a free consultation online](https://www.hypnotherapyroseville.com/). Hours: Mon–Fri 9am–6pm, Sat by appointment.` },
   { slug: 'hypnotherapy-vs-meditation', title: 'Hypnotherapy vs. Meditation: What\'s the Difference?', date: 'August 11, 2026', publishedAt: '2026-08-11', category: 'Hypnotherapy Basics', excerpt: 'Both hypnotherapy and meditation use a relaxed, focused state — but they work differently. Here\'s how to choose between them, and when each makes sense.', content: `Hypnotherapy and meditation both use a relaxed, focused state. They both work with the mind-body connection. They both have a long history. But they're not the same thing, and they're not interchangeable. Here's how to choose between them — and when combining them is the strongest path.
 
 ## What meditation is
