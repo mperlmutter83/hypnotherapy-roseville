@@ -1,6 +1,103 @@
 export interface BlogPost { slug: string; title: string; date: string; publishedAt: string; category: string; excerpt: string; content: string; }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'how-to-choose-a-hypnotherapist', title: 'How to Choose a Hypnotherapist: Credentials, Red Flags, Questions', date: 'August 18, 2026', publishedAt: '2026-08-18', category: 'Getting Started', excerpt: 'Not all hypnotherapists are equal. Here\'s what to look for, what to avoid, and the exact questions to ask before booking your first session.', content: `Hypnotherapy works — but it works best in the hands of a credentialed practitioner who knows what they're doing. Unfortunately, the field is unregulated in many states, and it's easy for an unqualified "hypno-coach" to set up shop. Here's a practical guide to choosing well.
+
+## The minimum credential check
+
+Look for certification from a recognized body. The three most credible in the United States are:
+
+- **National Guild of Hypnotists (NGH)** — the largest and most established certifying body
+- **American Council of Hypnotist Examiners (ACHE)** — focuses on clinical and educational standards
+- **International Hypnotherapy Association** — covers international practitioners
+
+A practitioner should be able to show you their certification and any continuing education. If they can't, that's a yellow flag.
+
+## Other things to look for
+
+Beyond certification, look for:
+
+- **Years in practice** — at least several years of consistent client work
+- **A specific area of focus** — the best hypnotherapists tend to specialize (smoking cessation, anxiety, weight, sleep, performance)
+- **Testimonials or references** — most established practitioners have them
+- **A clear intake process** — should include a detailed history before the first session
+- **Written policies** — confidentiality, cancellations, payment
+- **A collaborative style** — asks questions, explains the work, doesn't push outcomes
+
+## Red flags
+
+Walk away if a practitioner:
+
+- **Guarantees specific outcomes** ("I will cure your anxiety in one session") — no ethical practitioner makes these promises
+- **Promises to "cure" medical conditions** — diabetes, cancer, autoimmune disorders, etc. Hypnotherapy complements medical care but doesn't replace it.
+- **Doesn't explain what they're doing** — a good practitioner explains each step
+- **Has no certification** — or is vague about their training
+- **Pressures you to sign up for many sessions upfront** — most reputable practitioners sell single sessions or small packages
+- **Treats you like a sales prospect** — a first call should feel like a conversation, not a pitch
+
+## 10 questions to ask on the first call
+
+Before you book, ask:
+
+1. **What certification do you hold, and from which organization?**
+2. **How long have you been in practice?**
+3. **Do you specialize in the issue I'm dealing with?**
+4. **What does a typical first session look like?**
+5. **How many sessions do most clients need for my kind of issue?**
+6. **Do you work with a physician or other healthcare providers?**
+7. **What's your policy if I'm not seeing results?**
+8. **What does your intake process look like?**
+9. **What's your cancellation policy?**
+10. **Can I see any testimonials or references?**
+
+A good practitioner will answer every question directly. If you feel rushed or deflected, that's a signal.
+
+## Questions to ask yourself after a first session
+
+After the session, reflect:
+
+- Did I feel heard?
+- Did the practitioner explain what they were doing and why?
+- Did I feel safe?
+- Did the practitioner answer my questions?
+- Did the practitioner ask about my goals, history, and concerns?
+- Did the session feel professional and confidential?
+
+If the answer to most of these is yes, the practitioner is probably a good fit. If not, look elsewhere.
+
+## Local versus remote sessions
+
+Modern hypnotherapy works well via secure video. Most issues can be addressed remotely just as effectively as in person. The exception is certain cases — clients with severe anxiety triggered by digital interfaces, for example, may do better in person.
+
+If you're choosing remote, make sure the platform is secure and the practitioner has a HIPAA-compliant setup (or equivalent privacy standard).
+
+## Cost and value
+
+Hypnotherapy sessions typically run:
+
+- $100–$250 per session in most US markets
+- $75–$150 for shorter follow-ups
+- Discounts for package bookings
+
+These rates reflect the practitioner's training, time, and overhead. Significantly cheaper rates can be a red flag for inexperienced practitioners; significantly higher rates are common for specialists with strong reputations. The middle of the range, with verified credentials, is usually the sweet spot.
+
+## When to switch practitioners
+
+You're allowed to switch. Consider switching if:
+
+- You're not seeing results after 3–4 sessions
+- The practitioner isn't communicating clearly about progress
+- You feel uncomfortable or unheard
+- The practitioner makes promises they can't back up
+- The practitioner's approach doesn't match your goals
+
+A good practitioner will support your decision to switch and may even refer you to a colleague.
+
+## Book a free consultation
+
+The best way to evaluate a hypnotherapist is to talk to them. At Hypnotherapy Roseville, the first step is a free 15-minute consultation — you can ask questions, talk through your goals, and decide if it's the right fit.
+
+📞 **Call (415) 322-0298** or [book a free consultation online](https://www.hypnotherapyroseville.com/). Hours: Mon–Fri 9am–6pm, Sat by appointment.` },
   { slug: 'hypnotherapy-for-better-sleep', title: 'Using Hypnotherapy to Improve Sleep (Without Medication)', date: 'August 13, 2026', publishedAt: '2026-08-13', category: 'Sleep Improvement', excerpt: 'Hypnotherapy can help you fall asleep faster, stay asleep, and wake rested — without medication. Here\'s how it works and what to expect.', content: `Difficulty sleeping is one of the most common reasons people consider hypnotherapy. It also happens to be one of the issues that responds best to it. Here's how hypnotherapy helps with sleep, what the sessions look like, and why it's a strong option if you'd rather not rely on medication.
 
 ## What "sleep difficulty" actually means
