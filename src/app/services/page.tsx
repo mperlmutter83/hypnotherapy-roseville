@@ -4,12 +4,12 @@ export const metadata: Metadata = { title: 'Services' };
 
 export default function ServicesPage() {
   const services = [
-    { name: 'Anxiety & Stress Relief', desc: 'Learn techniques to manage anxiety and find calm in stressful situations.', price: '$150/session' },
-    { name: 'Quit Smoking', desc: 'Our smoking cessation program helps you break free from nicotine addiction.', price: '$300 (2 sessions)' },
-    { name: 'Weight Loss Hypnotherapy', desc: 'Reprogram your eating habits and relationship with food.', price: '$150/session' },
-    { name: 'Confidence & Self-Esteem', desc: 'Build lasting confidence and overcome self-doubt.', price: '$150/session' },
-    { name: 'Sleep Improvement', desc: 'Overcome insomnia and enjoy restful sleep.', price: '$150/session' },
-    { name: 'Phobia Treatment', desc: 'Face and overcome irrational fears.', price: '$150/session' },
+    { name: 'Anxiety & Stress Relief', desc: 'Learn techniques to manage anxiety and find calm in stressful situations.', price: '$350/hour' },
+    { name: 'Quit Smoking', desc: 'Our smoking cessation program helps you break free from nicotine addiction.', price: '$700 (2 sessions)' },
+    { name: 'Weight Loss Hypnotherapy', desc: 'Reprogram your eating habits and relationship with food.', price: '$350/hour' },
+    { name: 'Confidence & Self-Esteem', desc: 'Build lasting confidence and overcome self-doubt.', price: '$350/hour' },
+    { name: 'Sleep Improvement', desc: 'Overcome insomnia and enjoy restful sleep.', price: '$350/hour' },
+    { name: 'Phobia Treatment', desc: 'Face and overcome irrational fears.', price: '$350/hour' },
   ];
   return (
     <div>
